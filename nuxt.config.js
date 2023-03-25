@@ -2,7 +2,7 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   target: 'static',
   router: {
-    base: '/<repository-name>/'
+    base: '/interactive-card/'
   },
   ssr: false,
 
