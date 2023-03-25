@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # interactive-card
 
 ## Build Setup
@@ -68,6 +67,3 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
-=======
-# interactive-card
->>>>>>> a9a7e3468d4680ad0de6eab64d7087f9c0da903e
