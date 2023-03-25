@@ -6,6 +6,12 @@ export default {
   },
   ssr: false,
 
+  buildModules: [
+    '@nuxt/image',
+  ],
+  modules: [
+    '@nuxt/image',
+  ],
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'interactive-card',
@@ -26,6 +32,10 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
+
+  image: {
+    dir: 'assets/img'
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -48,5 +58,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
+      },
+    },
   }
 }

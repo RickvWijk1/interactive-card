@@ -1,5 +1,5 @@
 <template>
-  <div>Testing GitHub workflow</div>
+  <Tutorial />
 </template>
 
 <script lang="ts">
