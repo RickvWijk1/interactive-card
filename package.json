@@ -22,7 +22,7 @@
     "@nuxt/image": "^0.7.1",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/tailwindcss": "^5.3.3",
+    "@nuxtjs/tailwindcss": "^6.6.6",
     "postcss": "^8.4.21",
     "push-dir": "^0.4.1"
   },
