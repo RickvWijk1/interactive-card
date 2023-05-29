@@ -23,7 +23,7 @@
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/tailwindcss": "^5.3.3",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.24",
     "push-dir": "^0.4.1"
   },
   "resolutions": {
